@@ -63,7 +63,7 @@ public class DetailsActivity extends AppCompatActivity {
             superIngredients[i]=drink.measures.get(i)+ " "+drink.ingredients.get(i);
         }
         ingredientList.setText( String.join("\n",superIngredients));
-        instructionList.setText( drink.instructions);
+        instructionList.setText( drink.instructions.replace("\\r", "").replace("\\n\\n", "\n"));//Weird behavior in gimlet
         scoreBar.setMax(100);
         scoreBar.setProgress((int) (drink.score*10),true);
         Log.d("seekbar", String.valueOf( drink.score*10));
