@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Drinkster 2000</string>
+    <string name="welcome">Hi 👋 Welcome to Drinkster 🥂</string>
+    <string name="btnStart">View Drinks</string>
+    <string name="IngredientsHeader">Ingredients:</string>
+    <string name="instructionsHeader">Instructions:</string>
+    <string name="ratingsHeader" >Your Rating:</string>
+    <string name="backButton">Back</string>
+    <string name="SaveButton">Save</string>
+    <string name="exit">Exit</string>
+</resources>

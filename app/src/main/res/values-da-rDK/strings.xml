@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Drinkster 2000</string>
+    <string name="welcome">Hej 👋 Velkommen til Drinkster 🥂</string>
+    <string name="backButton">Tilbage</string>
+    <string name="btnStart">Se drinks</string>
+    <string name="exit">Tilbage</string>
+    <string name="IngredientsHeader">Ingredienser:</string>
+    <string name="instructionsHeader">Vejledning:</string>
+    <string name="ratingsHeader">Din bedømmelse</string>
+    <string name="SaveButton">Gem</string>
+</resources>
